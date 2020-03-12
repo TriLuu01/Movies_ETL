@@ -33,7 +33,7 @@ def ETL_data(wiki_data, kaggle_data, movielens_ratings):
     '''
     # -------------------------------------------------------------------
     # applied Assumption 1
-    file_dir = '/Users/susiexia/desktop/module_8/Movies-ETL/raw_data'
+    file_dir = '/Users/luudu/desktop/Analysis_Project/Movies-ETL-master/raw_data'
 
     try:
         kaggle_data_df = pd.read_csv(f'{file_dir}/{kaggle_data}', low_memory=False)
